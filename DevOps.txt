@@ -1,0 +1,54 @@
+Part 1
+Module Structure;
+	DevOps RElevance and challenges
+	What is DevOps
+	DevOps way 
+	people perspective
+	Process Perspective
+	Agile and DevOps
+	DevOps Tools 
+	DevOps Life Cycle
+	Maturity Matrix
+	Myths in DevOPs
+
+
+Part 2
+Ansible Inventory
+To add aserver with Ip and Username
+	centclient
+
+Ansible Modules
+Ansible provides a module library having extensive set of modules which can be directly executed on remote hosts or using playbooks written in YAML fromat
+
+Modules can also be costomize or added by users.These modulse can be used to install packages, start serviece, create files and  folders.
+
+Each module is assodciated with arguments. Arguments allow for customixation of use of modules for specirfic requrement(s).
+
+
+Ansible Playbooks 
+Ansible activivties are scripte in the form of playbook'.
+These are used for configuration management, deplyment and orchestration purpose
+playbooks descirbe the way the desired sat can be created on remote systems.
+Playbook provide teh desin, plan, using modules as tools.
+playobboks help sequencing multiptire rollouts involving rolling updates 
+playbooks can interact with monitoring servers and load balanceers and based on thier inormation can delegate actions on other hosts
+palybook sare human-redable and are devlope using YAML syntax.
+playbooks are more powerful and provede a modular way to get desired sate.
+playbooks are written using YAML format. They use minimum of suntax and avoid the complexity of programming language or script.
+Playbooks provides a list of plays to achieve the desired state 
+Each play map a goup of hos t with specific roles.
+Roles are built with Anasible modules called tasks.
+
+
+Ansible tasks
+tasks are executed in he order they are provided i the playbook
+once pushed tasks are executed conurrently on all cmachines matchin of task s to machines is done by playbook;
+If any of the tasks sare failed on particular host , then reast of hte tasks son the same hos will not be executed. 
+Each task executed a modele associated with specifi arguments. 
+Each odule work to bring the system to the desired state.
+if the playbooks runs multiple times, it may not make any change unless required to brint the maching to desired state.
+
+
+
+
+
